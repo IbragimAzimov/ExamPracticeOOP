@@ -14,6 +14,7 @@ public class Circle {
 
     public double getY() {
         final double PI = 3.14;
+
         y = PI * getRadius() * getRadius();
         return y;
     }
